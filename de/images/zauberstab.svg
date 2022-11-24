@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 250.34 135.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unbenannter_Verlauf_14-2);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        mix-blend-mode: color-dodge;
+      }
+
+      .cls-2 {
+        fill: url(#Unbenannter_Verlauf_14-4);
+      }
+
+      .cls-3 {
+        fill: url(#Unbenannter_Verlauf_14-5);
+      }
+
+      .cls-11 {
+        fill: none;
+        stroke: #fe6847;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        fill: url(#Unbenannter_Verlauf_14-8);
+      }
+
+      .cls-12 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        fill: url(#Unbenannter_Verlauf_14);
+      }
+
+      .cls-6 {
+        fill: url(#Unbenannter_Verlauf_14-6);
+      }
+
+      .cls-7 {
+        fill: url(#Unbenannter_Verlauf_14-3);
+      }
+
+      .cls-8 {
+        fill: url(#Unbenannter_Verlauf_14-9);
+      }
+
+      .cls-9 {
+        fill: url(#Unbenannter_Verlauf_14-10);
+      }
+
+      .cls-13 {
+        fill: #fe6847;
+      }
+
+      .cls-10 {
+        fill: url(#Unbenannter_Verlauf_14-7);
+      }
+    </style>
+    <radialGradient id="Unbenannter_Verlauf_14" data-name="Unbenannter Verlauf 14" cx="178.84" cy="42.71" fx="178.84" fy="42.71" r="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fe6847"/>
+      <stop offset=".09" stop-color="#f16243"/>
+      <stop offset=".26" stop-color="#ce5439"/>
+      <stop offset=".48" stop-color="#973d2a"/>
+      <stop offset=".75" stop-color="#4b1f15"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="Unbenannter_Verlauf_14-2" data-name="Unbenannter Verlauf 14" cx="147.84" cy="89.71" fx="147.84" fy="89.71" r=".5" xlink:href="#Unbenannter_Verlauf_14"/>
+    <radialGradient id="Unbenannter_Verlauf_14-3" data-name="Unbenannter Verlauf 14" cx="147.84" cy="89.71" fx="147.84" fy="89.71" r=".5" xlink:href="#Unbenannter_Verlauf_14"/>
+    <radialGradient id="Unbenannter_Verlauf_14-4" data-name="Unbenannter Verlauf 14" cx="249.84" cy="53.71" fx="249.84" fy="53.71" r=".5" xlink:href="#Unbenannter_Verlauf_14"/>
+    <radialGradient id="Unbenannter_Verlauf_14-5" data-name="Unbenannter Verlauf 14" cx="249.84" cy="53.71" fx="249.84" fy="53.71" r=".5" xlink:href="#Unbenannter_Verlauf_14"/>
+    <radialGradient id="Unbenannter_Verlauf_14-6" data-name="Unbenannter Verlauf 14" cx="109.84" cy="134.71" fx="109.84" fy="134.71" r="1" xlink:href="#Unbenannter_Verlauf_14"/>
+    <radialGradient id="Unbenannter_Verlauf_14-7" data-name="Unbenannter Verlauf 14" cx="109.84" cy="134.71" fx="109.84" fy="134.71" r="1" xlink:href="#Unbenannter_Verlauf_14"/>
+    <radialGradient id="Unbenannter_Verlauf_14-8" data-name="Unbenannter Verlauf 14" cx="248.84" cy="26.71" fx="248.84" fy="26.71" r="1" xlink:href="#Unbenannter_Verlauf_14"/>
+    <radialGradient id="Unbenannter_Verlauf_14-9" data-name="Unbenannter Verlauf 14" cx="248.84" cy="26.71" fx="248.84" fy="26.71" r="1" xlink:href="#Unbenannter_Verlauf_14"/>
+    <radialGradient id="Unbenannter_Verlauf_14-10" data-name="Unbenannter Verlauf 14" cx="201.84" cy="66.71" fx="201.84" fy="66.71" r="1" xlink:href="#Unbenannter_Verlauf_14"/>
+  </defs>
+  <g class="cls-12">
+    <g id="Ebene_2" data-name="Ebene 2">
+      <g id="Ebene_1-2" data-name="Ebene 1">
+        <g>
+          <path class="cls-13" d="M57.91,59.5c-.13,0-.26-.05-.35-.15L.65,2.44c-.2-.2-.2-.51,0-.71L1.74,.65c.09-.09,.22-.15,.35-.15s.26,.05,.35,.15L59.35,57.56c.09,.09,.15,.22,.15,.35s-.05,.26-.15,.35l-1.09,1.09c-.1,.1-.23,.15-.35,.15Z"/>
+          <path class="cls-13" d="M2.09,1L59,57.91l-1.09,1.09L1,2.09l1.09-1.09m0-1c-.27,0-.52,.11-.71,.29L.29,1.38c-.19,.19-.29,.44-.29,.71s.11,.52,.29,.71L57.2,59.71c.2,.2,.45,.29,.71,.29s.51-.1,.71-.29l1.09-1.09c.19-.19,.29-.44,.29-.71s-.11-.52-.29-.71L2.8,.29c-.19-.19-.44-.29-.71-.29h0Z"/>
+        </g>
+        <g>
+          <circle class="cls-13" cx="61.72" cy="61.84" r="8"/>
+          <g>
+            <line class="cls-11" x1="83.39" y1="84.41" x2="104.4" y2="105.82"/>
+            <line class="cls-13" x1="83.39" y1="84.41" x2="104.4" y2="105.82"/>
+          </g>
+          <g>
+            <line class="cls-11" x1="38.97" y1="84.7" x2="17.56" y2="105.71"/>
+            <line class="cls-13" x1="38.97" y1="84.7" x2="17.56" y2="105.71"/>
+          </g>
+          <g>
+            <line class="cls-11" x1="85.11" y1="39.13" x2="106.53" y2="18.12"/>
+            <line class="cls-13" x1="85.11" y1="39.13" x2="106.53" y2="18.12"/>
+          </g>
+          <g>
+            <line class="cls-11" x1="92.99" y1="62.13" x2="122.99" y2="62.42"/>
+            <line class="cls-13" x1="92.99" y1="62.13" x2="122.99" y2="62.42"/>
+          </g>
+          <g>
+            <line class="cls-11" x1="60.9" y1="124.33" x2="61.18" y2="94.33"/>
+            <line class="cls-13" x1="60.9" y1="124.33" x2="61.18" y2="94.33"/>
+          </g>
+        </g>
+        <circle class="cls-13" cx="178.84" cy="42.71" r="1"/>
+        <circle class="cls-5" cx="178.84" cy="42.71" r="1"/>
+        <circle class="cls-13" cx="147.84" cy="89.71" r=".5"/>
+        <circle class="cls-1" cx="147.84" cy="89.71" r=".5"/>
+        <circle class="cls-13" cx="147.84" cy="89.71" r=".5"/>
+        <circle class="cls-7" cx="147.84" cy="89.71" r=".5"/>
+        <circle class="cls-13" cx="249.84" cy="53.71" r=".5"/>
+        <circle class="cls-2" cx="249.84" cy="53.71" r=".5"/>
+        <circle class="cls-13" cx="249.84" cy="53.71" r=".5"/>
+        <circle class="cls-3" cx="249.84" cy="53.71" r=".5"/>
+        <circle class="cls-13" cx="109.84" cy="134.71" r="1"/>
+        <circle class="cls-6" cx="109.84" cy="134.71" r="1"/>
+        <circle class="cls-13" cx="109.84" cy="134.71" r="1"/>
+        <circle class="cls-10" cx="109.84" cy="134.71" r="1"/>
+        <circle class="cls-13" cx="248.84" cy="26.71" r="1"/>
+        <circle class="cls-4" cx="248.84" cy="26.71" r="1"/>
+        <circle class="cls-13" cx="248.84" cy="26.71" r="1"/>
+        <circle class="cls-8" cx="248.84" cy="26.71" r="1"/>
+        <circle class="cls-13" cx="201.84" cy="66.71" r="1"/>
+        <circle class="cls-9" cx="201.84" cy="66.71" r="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
