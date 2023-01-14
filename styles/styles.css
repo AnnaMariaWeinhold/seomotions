@@ -570,7 +570,7 @@ nav input[type="checkbox"]{
     margin-left: auto;
     position: relative;
     z-index: 2;
-    line-height: 1;
+    line-height: 1.2;
     font-weight: 700;
 }
 
@@ -707,6 +707,13 @@ nav input[type="checkbox"]{
     width: 100%;
     float: left;
     margin-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row--no-padding {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .service .row:first-child {
@@ -714,12 +721,22 @@ nav input[type="checkbox"]{
 }
 
 
+/* ---------------------------------*\
+    #COMPONENTS #COLUMNS #ONE
+\* ---------------------------------*/
+
+.one-column__heading-two {
+    text-align: center;
+}
 
 
 
 /* ---------------------------------*\
     #COMPONENTS #COLUMNS #FOUR
 \* ---------------------------------*/
+.prices-content {
+    padding: 0 24px;
+}
 
 .four-columns--nocolor {
     background-color: var(--main-background-color);
@@ -728,6 +745,10 @@ nav input[type="checkbox"]{
 
 .four-columns--colored {
     background-color: var(--lighter-accent-background-color);
+}
+
+.four-columns__card {
+    border: 12px solid #fff;
 }
 
 
@@ -758,6 +779,7 @@ padding-top: 0;
     text-align: center;
     margin-top: 0;
     margin-bottom: 42px;
+    padding: 0 24px;
 }
 
 .four-columns__heading-three {
@@ -803,14 +825,22 @@ padding-top: 0;
 .how-it-works .four-columns--colored-two,
 .how-it-works .four-columns--colored-three,
 .how-it-works .four-columns--colored-four {
-height: 480px;
+height: 430px;
+}
+
+.how-it-works__content .four-columns--colored-one,
+.how-it-works__content .four-columns--colored-two,
+.how-it-works__content .four-columns--colored-three,
+.how-it-works__content .four-columns--colored-four {
+height: 370px;
+margin-bottom: 90px;
 }
 
 .prices-webdesign .four-columns--colored-one,
 .prices-webdesign .four-columns--colored-two,
 .prices-webdesign .four-columns--colored-three,
 .prices-webdesign .four-columns--colored-four {
-    height: 800px;
+    height: 700px;
 }
 
 .four-columns--colored-one,
@@ -901,8 +931,8 @@ height: 480px;
 .two-columns__li-ul,
 .four-columns__li-ul {
  padding-bottom: 16px;
- padding-left: 8px;
- font-size: 20px;
+ padding-left: 2px;
+ font-size: 18px;
  list-style-type: disc;
 }
 
@@ -922,6 +952,7 @@ padding: 5px 0;
 \* ---------------------------------*/
 
 
+
 .question__img {
     display: flex;
     justify-content: center;
@@ -931,11 +962,13 @@ padding: 5px 0;
 .question__p {
     font-size: 24px;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 12px;
+    padding: 0 120px;
 }
 
 .question__heading-two {
     text-align: center;
+    padding: 0 24px;
 }
 
 
@@ -1057,6 +1090,23 @@ padding: 5px 0;
 }
 
 
+/* ---------------------------------*\
+    #WHAT IS
+\* ---------------------------------*/
+
+.what-is__img {
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-items: center;
+    padding: 0 24px;
+    width: 90%;
+}
+
+.what-is--mobile {
+    display: none;
+}
 
 
 /* ---------------------------------*\
@@ -1381,6 +1431,17 @@ color: #ff6b35;
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 576px){
 
+    /* #LAYOUT */
+  
+
+    .prices-content,
+    .prices-webdesign,
+    .how-it-works,
+    .how-it-works__content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     /* #TYPOGRAPHIE */
     h1 {
         font-size: 36px;
@@ -1478,6 +1539,8 @@ color: #ff6b35;
 
     .problems { /*section problems*/
         padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .teaser__subheading,
@@ -1521,7 +1584,12 @@ color: #ff6b35;
     /* #FOUR #COLUMNS */
     .four-columns {
         width: 100%;
-        text-align: center;
+        text-align: left;
+        padding: var(--column-padding);
+    }
+
+    .four-columns__card {
+        border: 8px solid #fff;
     }
 
     .four-columns__icon {
@@ -1537,13 +1605,18 @@ color: #ff6b35;
         font-size: 22px;
     }
 
+    .four-columns__subheading {
+        padding: 0 24px;
+    }
+
+    .how-it-works__content .four-columns--colored-one,
+    .how-it-works__content .four-columns--colored-two,
+    .how-it-works__content .four-columns--colored-three,
+    .how-it-works__content .four-columns--colored-four,
     .prices-webdesign .four-columns--colored-one,
     .prices-webdesign .four-columns--colored-two,
     .prices-webdesign .four-columns--colored-three,
-    .prices-webdesign .four-columns--colored-four {
-        height: fit-content;
-    }
-
+    .prices-webdesign .four-columns--colored-four,
     .how-it-works .four-columns--colored-one,
     .how-it-works .four-columns--colored-two,
     .how-it-works .four-columns--colored-three,
@@ -1553,6 +1626,7 @@ color: #ff6b35;
     .four-columns--colored-three,
     .four-columns--colored-four {
     height: fit-content;
+    margin-bottom: 0;
     }
 
     .column-first,
@@ -1603,6 +1677,7 @@ color: #ff6b35;
     .two-columns--dark-bg,
     .two-columns--light-bg {
         padding: var(--column-padding);
+        height: fit-content;
     }
 
     /* #QUESTION */
@@ -1611,11 +1686,26 @@ color: #ff6b35;
     }
 
     .question__p {
-        font-size: 20px;
+        font-size: 18px;
+        padding: 0 24px;
+        text-align: center;
     }
 
     .question__img {
         padding: 0 40%;
+    }
+
+    /* WHAT IS */
+    .what-is--mobile {
+        display: block;
+    }
+
+    .what-is {
+        display: none;
+    }
+
+    .what-is__img {
+        width: 100%;
     }
 
     /* #QUOTE */
@@ -1940,10 +2030,16 @@ color: #ff6b35;
         font-size: 42px;
     }
 
+    /* #ONE #COLUMN*/
+
+    .one-column__heading-two {
+        padding: 0 24px;
+    }
+
     /* #TWO #COLUMNS */
     .two-columns--light-bg,
     .two-columns--dark-bg {
-        height: 450px;
+        height: 380px;
     }
 
     /* #THREE #COLUMNS */
@@ -1962,6 +2058,10 @@ color: #ff6b35;
         width: 50%;
     }
 
+    .four-columns__card {
+        border: 12px solid #fff;
+    }
+
     .prices-webdesign .four-columns--colored-one,
     .prices-webdesign .four-columns--colored-two {
         height: 520px;
@@ -1971,6 +2071,21 @@ color: #ff6b35;
     .prices-webdesign .four-columns--colored-four {
         height: 610px;
     }
+
+    .prices-content .four-columns--colored-three,
+    .prices-content .four-columns--colored-four {
+        height: 500px;
+    }
+
+
+    .how-it-works__content .four-columns--colored-one,
+    .how-it-works__content .four-columns--colored-two,
+    .how-it-works__content .four-columns--colored-three,
+    .how-it-works__content .four-columns--colored-four {
+        height: 300px;
+        margin-bottom: 0;
+    }
+
 
     .how-it-works .four-columns--colored-one,
     .how-it-works .four-columns--colored-two,
@@ -2070,9 +2185,17 @@ color: #ff6b35;
         margin: 10px auto 0 auto;
     }
 
+    /* QUESTION */
+
+    .question__heading-two {
+        padding: 0 24px;
+    }
+
+
     /* #SECOND TEASER */
     .second-teaser,
-    .second-teaser-webdesign {
+    .second-teaser-webdesign,
+    .second-teaser-seo {
         padding-bottom: 140px;
         background-position: left;
         padding-top: 30px;
@@ -2088,9 +2211,15 @@ color: #ff6b35;
     }
 
     .second-teaser__text,
-    .second-teaser-seo__text
     .second-teaser-webdesign__text {
         width: 40%;
+        padding-right: 0;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .second-teaser-seo__text {
+        width: 50%;
         padding-right: 0;
         font-size: 18px;
         font-weight: bold;
@@ -2280,6 +2409,23 @@ color: #ff6b35;
         height: 610px;
     }
 
+    .prices-content .four-columns--colored-one,
+    .prices-content .four-columns--colored-two {
+        height: 340px;
+    }
+
+    .prices-content .four-columns--colored-three,
+    .prices-content .four-columns--colored-four {
+        height: 470px;
+    }
+
+    .how-it-works__content .four-columns--colored-one,
+    .how-it-works__content .four-columns--colored-two,
+    .how-it-works__content .four-columns--colored-three,
+    .how-it-works__content .four-columns--colored-four  {
+        margin-bottom: 0;
+        height: 240px;
+    }
 
     .how-it-works .four-columns--colored-one,
     .how-it-works .four-columns--colored-two,
@@ -2448,6 +2594,10 @@ color: #ff6b35;
         width: 70%;
     }
 
+    h3 {
+        font-size: 26px;
+    }
+
     /* #NAVIGATION */
     .navbar__menu {
         width: 100%;
@@ -2507,13 +2657,7 @@ color: #ff6b35;
         padding-right: var(--column-padding);
     }
 
-    /* #FOUR COLUMNS */
-    .four-columns--colored-one,
-    .four-columns--colored-two,
-    .four-columns--colored-three,
-    .four-columns--colored-four {
-        height: 520px;
-    }
+   
 
     /* #SECOND TEASER */
     .second-teaser-webdesign,
@@ -2537,6 +2681,38 @@ color: #ff6b35;
     }
 
     /* FOUR COLUMNS */
+    .four-columns--colored-one,
+    .four-columns--colored-two,
+    .four-columns--colored-three,
+    .four-columns--colored-four {
+        height: 520px;
+    }
+
+    .four-columns__card {
+        border: 8px solid #fff;
+    }
+
+    .how-it-works .four-columns--colored-one,
+    .how-it-works .four-columns--colored-two,
+    .how-it-works .four-columns--colored-three,
+    .how-it-works .four-columns--colored-four {
+        height: 460px;
+    }
+
+    .prices-content .four-columns--colored-one,
+    .prices-content .four-columns--colored-two,
+    .prices-content .four-columns--colored-three,
+    .prices-content .four-columns--colored-four {
+        height: 510px;
+    }
+
+    .prices-webdesign .four-columns--colored-one,
+    .prices-webdesign .four-columns--colored-two,
+    .prices-webdesign .four-columns--colored-three,
+    .prices-webdesign .four-columns--colored-four {
+        height: 810px;
+    }
+
     .four-columns--colored-one,
     .four-columns--colored-two,
     .four-columns--colored-three,
@@ -2682,6 +2858,20 @@ color: #ff6b35;
     .four-columns--colored-three,
     .four-columns--colored-four {
         height: 540px;
+    }
+
+    .how-it-works .four-columns--colored-one,
+    .how-it-works .four-columns--colored-two,
+    .how-it-works .four-columns--colored-three,
+    .how-it-works .four-columns--colored-four {
+        height: 460px;
+    }
+
+    .prices-webdesign .four-columns--colored-one,
+    .prices-webdesign .four-columns--colored-two,
+    .prices-webdesign .four-columns--colored-three,
+    .prices-webdesign .four-columns--colored-four {
+        height: 810px;
     }
 }
 
